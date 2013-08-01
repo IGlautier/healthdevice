@@ -1,0 +1,31 @@
+{
+    "deviceID": {
+        "22" : {
+            "name" : "Blood Sugar Monitor",
+            "lookupPaths" : {
+                "0" : "bloodGlucose"
+            }
+        },
+  	"18" : {
+            "name" : "Blood Pressure Monitor",
+            "lookupPaths" : {
+                "0" : "systolicPressure",
+				"1" : "diastolicPressure",
+				"2" : "pulseRate"
+            }
+        },
+		"119" : {
+            "name" : "Scales",
+            "lookupPaths" : {
+                "0" : "weight",
+				"1" : "hydration",
+				"2" : "boydFat",
+				"3" : "boneMass",
+				"4" : "muscleMass",
+				"5" : "activeMetabolicRate",
+				"6" : "basalMetabolicRate",
+				"7" : "User"
+            }
+        }
+    }
+}
