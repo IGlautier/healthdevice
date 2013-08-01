@@ -1,0 +1,11 @@
+Copy the files in the server folder to a system with node installed and is accesible by the computer that the HMM Ant+ 
+module can access. 
+
+Repoint Users/username/AppData/roaming/hFon_Gateway/etc/app.xml to your server.
+
+On server: sudo node index.js
+
+Test by taking a reading from a hmm device, hmm gateway should register the reading.
+
+To read from the server install the driver in webinos-driver-manager and start dashboard. You should now be able to drag
+and drop a new sensor(uses hrm symbol) onto a graph.
