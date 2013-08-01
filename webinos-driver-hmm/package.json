@@ -1,0 +1,25 @@
+{ "name": "webinos-driver-hmm"
+, "publishConfig": { "tag": "alpha" }
+, "description": "hmm Drivers"
+, "keywords": [ "webinos", "hmm", "driver"]
+, "version": "0.0.1"
+, "homepage": "http://webinos.org/"
+, "author": "Ivan Glautier <ivanglautier@gmail.com>"
+, "repository":
+  { "type": "git"
+  , "url": "https://github.com/webinos/webinos-driver-fake.git"
+  }
+, "bugs":
+  { "email": "webinos-wp4-ml@fokus.fraunhofer.de"
+  , "url": ""
+  }
+, "directories": { "lib": "./lib"
+                 }
+, "main": "./lib/driverHandle.js"
+, "dependencies":
+  {
+  }
+, "bundleDependencies":
+  [
+  ]
+}
